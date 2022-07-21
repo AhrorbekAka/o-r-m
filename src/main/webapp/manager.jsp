@@ -8,5 +8,17 @@
 </head>
 <body>
 <h1>Manager Page</h1>
+
+
+<h1><%= "Hello World!" %>
+</h1><br/>
+<form action="tablemenu.jsp" method="post">
+    <input type="submit",value="tablemenu">
+</form>
+
+
+
+
+
 </body>
 </html>

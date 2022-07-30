@@ -9,24 +9,20 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet("/paid")
-public class Paid extends HttpServlet
-{
+public class Paid extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
 @Override
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-  String tableorder=request.getParameter("")
+  String tableorder=request.getParameter("");
 
 
 }
 
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-
-
-    }
-
-
-
+	}
 
 }

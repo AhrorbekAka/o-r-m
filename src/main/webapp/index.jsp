@@ -28,15 +28,14 @@
 					<img class="d-block w-100" src="resources/tuna2.jpg"
 						style="height: 100vh !important" alt="First slide">
 					<div class="carousel-caption d-none d-md-block">
-						<h5>Plov</h5>
-						<p>The most popular Uzbek food</p>
+						<h5>BlaBla</h5>
 					</div>
 				</div>
 				<div class="carousel-item">
 					<img class="d-block w-100" src="resources/creme.jpg"
 						style="height: 100vh !important" alt="Second slide">
 					<div class="carousel-caption d-none d-md-block">
-						<h5>Salad from tomato, cucumber and onion</h5>
+						<h5>BlaBla</h5>
 						<p>...</p>
 					</div>
 				</div>

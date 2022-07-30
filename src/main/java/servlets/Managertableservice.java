@@ -12,6 +12,7 @@ import java.sql.Statement;
 
 @WebServlet("/Managertable")
 public class Managertableservice extends HttpServlet {
+	private static final long serialVersionUID = 1L;
 
     @Override// we use it for updating
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

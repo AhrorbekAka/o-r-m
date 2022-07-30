@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a11792e7-7d97-4841-a4ea-2556b132978a" name="Changes" comment="asdfsfd">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_6_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jsp_jakarta_servlet_jsp_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/online restaurant management.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/dbCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/dbCon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/CustomerTableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/CustomerTableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Logout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/ManagerMealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/ManagerMealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Managertableservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Managertableservice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Paid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Paid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shakarob.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uzbek-foods.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CEpvdVjEbESQ3Z6qz8aym0mwmk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a11792e7-7d97-4841-a4ea-2556b132978a" name="Changes" comment="" />
+      <created>1658377834326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658377834326</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asdfsfd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdfsfd" />
+  </component>
+</project>

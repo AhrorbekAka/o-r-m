@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-      <h1> ooooo !!!!  Sorry In order to Our restaurant rules before ordering meal you must order a table</h1>
+      <h1> ooooops!!!!  Sorry In order to Our restaurant rules before ordering meal you must order a table</h1>
       <h2>  To order Table please click the "TABLE ORDER BUTTON" </h2>
       <form action="Cus_tablemenu.jsp">
           <input type="submit" value="TABLE ORDER BUTTON">

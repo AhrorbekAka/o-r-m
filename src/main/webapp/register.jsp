@@ -11,7 +11,7 @@
 	crossorigin="anonymous">
 </head>
 <body>
-	<form action="register" method="post" class="bg-dark"
+	<form action="register" onsubmit="submit()" method="post" class="bg-dark was-required"
 		style="height: 100vh">
 		<div class="container py-5 h-100">
 			<div
@@ -31,14 +31,14 @@
 									<div class="row">
 										<div class="col-md-6 mb-3">
 											<div class="form-outline">
-												<input type="text" id="firstName" name="firstName"
+												<input type="text" id="firstName" name="firstName" required
 													class="form-control form-control-lg"
 													placeHolder="Firstname" />
 											</div>
 										</div>
 										<div class="col-md-6 mb-3">
 											<div class="form-outline">
-												<input type="text" id="lastName" name="lastName"
+												<input type="text" id="lastName" name="lastName" required
 													class="form-control form-control-lg" placeHolder="Lastname" />
 											</div>
 										</div>
@@ -47,7 +47,7 @@
 									<div class="row">
 										<div class="col-md-6 mb-3">
 											<div class="form-outline">
-												<input type="text" id="age" name="age"
+												<input type="text" id="age" name="age" required
 													class="form-control form-control-lg" placeHolder="Age" />
 											</div>
 										</div>
@@ -58,14 +58,14 @@
 
 											<div class="form-check form-check-inline mb-0 me-4">
 												<input class="form-check-input" type="radio"
-													name="inlineRadioOptions" id="maleGender" value="option2" />
+													name="inlineRadioOptions" required id="maleGender" value="option2" />
 												<label class="form-check-label" for="maleGender">Male</label>
 											</div>
 
 
 											<div class="form-check form-check-inline mb-0 me-4">
 												<input class="form-check-input" type="radio"
-													name="inlineRadioOptions" id="femaleGender" value="option1" />
+													name="inlineRadioOptions"  required id="femaleGender" value="option1" />
 												<label class="form-check-label" for="femaleGender">Female</label>
 											</div>
 										</div>
@@ -74,25 +74,25 @@
 
 									<div class="form-outline mb-3">
 										<input type="text" id="email"
-											class="form-control form-control-lg" name="email"
+											class="form-control form-control-lg" name="email" required
 											placeHolder="Email" />
 									</div>
 
 									<div class="form-outline mb-3">
-										<input type="text" id="phoneNumber" name="phoneNumber"
+										<input type="text" id="phoneNumber" name="phoneNumber" required
 											class="form-control form-control-lg"
 											placeHolder="Phone number" />
 									</div>
 
 									<div class="form-outline mb-3">
 										<input type="password" id="password"
-											class="form-control form-control-lg" name="password"
+											class="form-control form-control-lg" name="password" required
 											placeHolder="Password" />
 									</div>
 
 									<div class="form-outline mb-3">
 										<input type="password" id="confirmPassword"
-											class="form-control form-control-lg" name="password"
+											class="form-control form-control-lg" name="password" required
 											placeHolder="Confirm Password" />
 									</div>
 
@@ -124,5 +124,15 @@
 		src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"></script>
+	<script>
+			const password = document.getElementById("password")
+			const confirmPassword = document.getElementById("confirmPassword")
+			confirmPassword.addEventListener("keyup", function (){
+			document.querySelector("button").disabled = true;
+			if(password.value === confirmPassword.value){
+			document.querySelector("button").disabled = false;
+		}
+		})
+	</script>
 </body>
 </html>

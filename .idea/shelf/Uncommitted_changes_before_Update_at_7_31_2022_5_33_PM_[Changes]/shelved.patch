@@ -1,0 +1,338 @@
+Index: .idea/artifacts/online_restaurant_management_war.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/online_restaurant_management_war.xml b/.idea/artifacts/online_restaurant_management_war.xml
+new file mode 100644
+--- /dev/null	(date 1659262687183)
++++ b/.idea/artifacts/online_restaurant_management_war.xml	(date 1659262687183)
+@@ -0,0 +1,14 @@
++<component name="ArtifactManager">
++  <artifact type="war" name="online restaurant management:war">
++    <output-path>$PROJECT_DIR$/target</output-path>
++    <properties id="maven-jee-properties">
++      <options>
++        <module>online restaurant management</module>
++        <packaging>war</packaging>
++      </options>
++    </properties>
++    <root id="archive" name="online_restaurant_management-0.0.1-SNAPSHOT.war">
++      <element id="artifact" artifact-name="online restaurant management:war exploded" />
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a11792e7-7d97-4841-a4ea-2556b132978a\" name=\"Changes\" comment=\"asdfsfd\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_6_0_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jsp_jakarta_servlet_jsp_api_3_1_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_4_0.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/online restaurant management.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/compiler.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/compiler.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/jarRepositories.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/jarRepositories.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/services/dbCon.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/services/dbCon.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/servlets/CustomerTableService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/servlets/CustomerTableService.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/servlets/Logout.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/servlets/Logout.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/servlets/ManagerMealService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/servlets/ManagerMealService.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/servlets/Managertableservice.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/servlets/Managertableservice.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/servlets/Paid.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/servlets/Paid.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/index.jsp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/index.jsp\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/plov.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/shakarob.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/uzbek-foods.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2CEpvdVjEbESQ3Z6qz8aym0mwmk\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a11792e7-7d97-4841-a4ea-2556b132978a\" name=\"Changes\" comment=\"\" />\r\n      <created>1658377834326</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1658377834326</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"asdfsfd\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"asdfsfd\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 16a19f33b01a703496ea3b3744d2f979eac4db32)
++++ b/.idea/workspace.xml	(date 1659270741759)
+@@ -5,26 +5,30 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="a11792e7-7d97-4841-a4ea-2556b132978a" name="Changes" comment="asdfsfd">
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_6_0_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jsp_jakarta_servlet_jsp_api_3_1_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_4_0.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/online restaurant management.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/artifacts/online_restaurant_management_war.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/artifacts/online_restaurant_management_war_exploded.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/services/dbCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/dbCon.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/CustomerTableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/CustomerTableService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Logout.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/ManagerMealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/ManagerMealService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Managertableservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Managertableservice.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Paid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Paid.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/plov.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/shakarob.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/uzbek-foods.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/online restaurant management.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/online restaurant management.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/entities/Meal.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/entities/MealType.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/entities/Message.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/entities/Order.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/entities/Payment.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/entities/Table.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/entities/TableType.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/entities/UserRole.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/entities/Users.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/services/AuthService.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/services/DBConnection.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/services/DeployListener.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/services/dbCon.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/servlets/LoginServlet.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/servlets/Logout.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/servlets/ManagerMealService.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/servlets/Managertableservice.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/servlets/Paid.class" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -41,7 +45,7 @@
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+       <MavenGeneralSettings>
+-        <option name="useMavenConfig" value="true" />
++        <option name="mavenHome" value="Z:\intellij ultimate\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+       </MavenGeneralSettings>
+     </option>
+   </component>
+@@ -50,11 +54,90 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)"
++  }
++}]]></component>
++  <component name="RunManager">
++    <configuration name="Tomcat " type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat " ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="openjdk-18 (2)" nameIsGenerated="true">
++      <option name="UPDATING_POLICY" value="restart-server" />
++      <deployment>
++        <artifact name="online restaurant management:war exploded">
++          <settings>
++            <option name="CONTEXT_PATH" value="/online_restaurant_management_war_exploded" />
++          </settings>
++        </artifact>
++      </deployment>
++      <server-settings>
++        <option name="BASE_DIRECTORY_NAME" value="Unnamed_online_restaurant_management" />
++      </server-settings>
++      <predefined_log_file enabled="true" id="Tomcat" />
++      <predefined_log_file enabled="true" id="Tomcat Catalina" />
++      <predefined_log_file id="Tomcat Manager" />
++      <predefined_log_file id="Tomcat Host Manager" />
++      <predefined_log_file id="Tomcat Localhost Access" />
++      <RunnerSettings RunnerId="Debug">
++        <option name="DEBUG_PORT" value="5900" />
++      </RunnerSettings>
++      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
++        <option name="USE_ENV_VARIABLES" value="true" />
++        <STARTUP>
++          <option name="USE_DEFAULT" value="true" />
++          <option name="SCRIPT" value="" />
++          <option name="VM_PARAMETERS" value="" />
++          <option name="PROGRAM_PARAMETERS" value="" />
++        </STARTUP>
++        <SHUTDOWN>
++          <option name="USE_DEFAULT" value="true" />
++          <option name="SCRIPT" value="" />
++          <option name="VM_PARAMETERS" value="" />
++          <option name="PROGRAM_PARAMETERS" value="" />
++        </SHUTDOWN>
++      </ConfigurationWrapper>
++      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
++        <option name="USE_ENV_VARIABLES" value="true" />
++        <STARTUP>
++          <option name="USE_DEFAULT" value="true" />
++          <option name="SCRIPT" value="" />
++          <option name="VM_PARAMETERS" value="" />
++          <option name="PROGRAM_PARAMETERS" value="" />
++        </STARTUP>
++        <SHUTDOWN>
++          <option name="USE_DEFAULT" value="true" />
++          <option name="SCRIPT" value="" />
++          <option name="VM_PARAMETERS" value="" />
++          <option name="PROGRAM_PARAMETERS" value="" />
++        </SHUTDOWN>
++      </ConfigurationWrapper>
++      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
++        <option name="USE_ENV_VARIABLES" value="true" />
++        <STARTUP>
++          <option name="USE_DEFAULT" value="true" />
++          <option name="SCRIPT" value="" />
++          <option name="VM_PARAMETERS" value="" />
++          <option name="PROGRAM_PARAMETERS" value="" />
++        </STARTUP>
++        <SHUTDOWN>
++          <option name="USE_DEFAULT" value="true" />
++          <option name="SCRIPT" value="" />
++          <option name="VM_PARAMETERS" value="" />
++          <option name="PROGRAM_PARAMETERS" value="" />
++        </SHUTDOWN>
++      </ConfigurationWrapper>
++      <method v="2">
++        <option name="Make" enabled="true" />
++        <option name="BuildArtifacts" enabled="true">
++          <artifact name="online restaurant management:war exploded" />
++        </option>
++      </method>
++    </configuration>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -64,9 +147,14 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1658377834326</updated>
++      <workItem from="1659262563668" duration="1157000" />
++      <workItem from="1659269858528" duration="762000" />
+     </task>
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
+@@ -82,4 +170,18 @@
+     <MESSAGE value="asdfsfd" />
+     <option name="LAST_COMMIT_MESSAGE" value="asdfsfd" />
+   </component>
++  <component name="WindowStateProjectService">
++    <state x="249" y="0" key="#Project_Structure" timestamp="1659262588415">
++      <screen x="0" y="0" width="1536" height="834" />
++    </state>
++    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1659262588415" />
++    <state x="223" y="58" width="1089" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1659263134887">
++      <screen x="0" y="0" width="1536" height="834" />
++    </state>
++    <state x="223" y="58" width="1089" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1659263134887" />
++    <state x="277" y="0" key="SettingsEditor" timestamp="1659263103339">
++      <screen x="0" y="0" width="1536" height="834" />
++    </state>
++    <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1659263103339" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\" />\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"jpab\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 16a19f33b01a703496ea3b3744d2f979eac4db32)
++++ b/.idea/misc.xml	(date 1659269869367)
+@@ -1,5 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="FrameworkDetectionExcludesConfiguration">
++    <file type="web" url="file://$PROJECT_DIR$" />
++  </component>
+   <component name="MavenProjectsManager">
+     <option name="originalFiles">
+       <list>
+@@ -7,7 +10,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18 (2)" project-jdk-type="JavaSDK" />
+   <component name="ProjectType">
+     <option name="id" value="jpab" />
+   </component>
+Index: target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Generated by Maven Integration for Eclipse\r\n#Thu Jul 21 09:41:21 UZT 2022\r\nm2e.projectLocation=Z\\:\\\\EPAM Training\\\\New projects\\\\online restaurant management\r\nm2e.projectName=online_restaurant_management\r\ngroupId=online_restaurant_management\r\nartifactId=online_restaurant_management\r\nversion=0.0.1-SNAPSHOT\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties b/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties
+--- a/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties	(revision 16a19f33b01a703496ea3b3744d2f979eac4db32)
++++ b/target/m2e-wtp/web-resources/META-INF/maven/online_restaurant_management/online_restaurant_management/pom.properties	(date 1659261624957)
+@@ -1,5 +1,5 @@
+ #Generated by Maven Integration for Eclipse
+-#Thu Jul 21 09:41:21 UZT 2022
++#Sun Jul 31 15:00:24 UZT 2022
+ m2e.projectLocation=Z\:\\EPAM Training\\New projects\\online restaurant management
+ m2e.projectName=online_restaurant_management
+ groupId=online_restaurant_management
+Index: .idea/online restaurant management.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_17\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" scope=\"PROVIDED\" name=\"Maven: jakarta.servlet:jakarta.servlet-api:6.0.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"PROVIDED\" name=\"Maven: jakarta.servlet.jsp:jakarta.servlet.jsp-api:3.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.postgresql:postgresql:42.4.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Maven: org.checkerframework:checker-qual:3.5.0\" level=\"project\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/online restaurant management.iml b/.idea/online restaurant management.iml
+--- a/.idea/online restaurant management.iml	(revision 16a19f33b01a703496ea3b3744d2f979eac4db32)
++++ b/.idea/online restaurant management.iml	(date 1659269998723)
+@@ -1,5 +1,17 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="web" name="Web">
++      <configuration>
++        <descriptors>
++          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
++        </descriptors>
++        <webroots>
++          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
++        </webroots>
++      </configuration>
++    </facet>
++  </component>
+   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+     <output url="file://$MODULE_DIR$/target/classes" />
+     <output-test url="file://$MODULE_DIR$/target/test-classes" />
+Index: .idea/artifacts/online_restaurant_management_war_exploded.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/online_restaurant_management_war_exploded.xml b/.idea/artifacts/online_restaurant_management_war_exploded.xml
+new file mode 100644
+--- /dev/null	(date 1659262687198)
++++ b/.idea/artifacts/online_restaurant_management_war_exploded.xml	(date 1659262687198)
+@@ -0,0 +1,27 @@
++<component name="ArtifactManager">
++  <artifact type="exploded-war" name="online restaurant management:war exploded">
++    <output-path>$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT</output-path>
++    <properties id="maven-jee-properties">
++      <options>
++        <exploded>true</exploded>
++        <module>online restaurant management</module>
++        <packaging>war</packaging>
++      </options>
++    </properties>
++    <root id="root">
++      <element id="directory" name="WEB-INF">
++        <element id="directory" name="classes">
++          <element id="module-output" name="online restaurant management" />
++        </element>
++        <element id="directory" name="lib">
++          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.4.0" />
++          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
++        </element>
++      </element>
++      <element id="directory" name="META-INF">
++        <element id="file-copy" path="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
++      </element>
++      <element id="javaee-facet-resources" facet="online restaurant management/web/Web" />
++    </root>
++  </artifact>
++</component>
+\ No newline at end of file
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+deleted file mode 100644

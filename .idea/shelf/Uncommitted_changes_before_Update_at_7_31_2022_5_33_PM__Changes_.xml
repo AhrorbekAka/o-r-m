@@ -1,0 +1,94 @@
+<changelist name="Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]" date="1659270840697" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 7/31/2022 5:33 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/services/AuthService.class" />
+    <option name="AFTER_PATH" value="target/classes/services/AuthService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/AuthService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/servlets/Logout.class" />
+    <option name="AFTER_PATH" value="target/classes/servlets/Logout.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/Logout.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/servlets/ManagerMealService.class" />
+    <option name="AFTER_PATH" value="target/classes/servlets/ManagerMealService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/ManagerMealService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/servlets/Managertableservice.class" />
+    <option name="AFTER_PATH" value="target/classes/servlets/Managertableservice.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/Managertableservice.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/entities/Order.class" />
+    <option name="AFTER_PATH" value="target/classes/entities/Order.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/Order.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/servlets/LoginServlet.class" />
+    <option name="AFTER_PATH" value="target/classes/servlets/LoginServlet.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/LoginServlet.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/entities/MealType.class" />
+    <option name="AFTER_PATH" value="target/classes/entities/MealType.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/MealType.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/entities/Payment.class" />
+    <option name="AFTER_PATH" value="target/classes/entities/Payment.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/Payment.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/entities/Meal.class" />
+    <option name="AFTER_PATH" value="target/classes/entities/Meal.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/Meal.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/services/DeployListener.class" />
+    <option name="AFTER_PATH" value="target/classes/services/DeployListener.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/DeployListener.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/entities/Users.class" />
+    <option name="AFTER_PATH" value="target/classes/entities/Users.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/Users.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/services/DBConnection.class" />
+    <option name="AFTER_PATH" value="target/classes/services/DBConnection.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/DBConnection.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/entities/Message.class" />
+    <option name="AFTER_PATH" value="target/classes/entities/Message.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/Message.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/entities/TableType.class" />
+    <option name="AFTER_PATH" value="target/classes/entities/TableType.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/TableType.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/entities/UserRole.class" />
+    <option name="AFTER_PATH" value="target/classes/entities/UserRole.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/UserRole.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/servlets/Paid.class" />
+    <option name="AFTER_PATH" value="target/classes/servlets/Paid.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/Paid.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/services/dbCon.class" />
+    <option name="AFTER_PATH" value="target/classes/services/dbCon.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/dbCon.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/entities/Table.class" />
+    <option name="AFTER_PATH" value="target/classes/entities/Table.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_31_2022_5_33_PM_[Changes]/Table.class" />
+  </binary>
+</changelist>

@@ -17,15 +17,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-    />
-    <title>Document</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <title>Manager</title>
 </head>
 <body>
 <sql:setDataSource var="orm" driver="org.postgresql.Driver"
-                   url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="postgres"/>
+                   url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="0123"/>
 
 <sql:query var="rs" dataSource="${orm}">SELECT text,role,first_name,last_name FROM message join _user_ on message.up_number=_user_.phone_number order by message.id asc</sql:query>
 
@@ -44,10 +44,9 @@
 
                 <div class="d-flex flex-row p-3 float-end">
                     <div class="bg-white mr-2 p-3">
-                        <span class="d-block text-primary" style="font-size: 11px;"><span class="text-danger">${mess.role}</span> / ${mess.first_name}</span>
-                        <span class="text-black"
-                        >${mess.text}</span
-                        >
+                        <span class="d-block text-primary" style="font-size: 11px;">
+                            <span class="text-danger">${mess.role}</span> / ${mess.first_name}</span>
+                        <span class="text-black">${mess.text}</span>
                     </div>
                     <img
                             src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-7.png"
@@ -89,7 +88,7 @@
                     <a class="nav-link active" aria-current="page" href="#">    </a>
                     <a class="nav-link" href="#">     </a>
                 </div>
-                <form action="Logout", method="post">
+                <form action="Logout" method="post">
                     <input type="submit" class="btn btn-success" value="Logout ">
                 </form>
             </div>
@@ -103,8 +102,8 @@
         <div
                 class="div tables d-flex align-items-center justify-content-around"
         >
-            <a href="Man_tablemenu.jsp" class="btn btn-info" >Table menu</a>
-            <a href="Man_mealmenu.jsp" class="btn btn-info" >Meal menu</a>
+            <a href="man_table_menu.jsp" class="btn btn-info" >Table menu</a>
+            <a href="man_meal_menu.jsp" class="btn btn-info" >Meal menu</a>
         </div>
         <div
                 class="div buttuns d-flex align-items-center justify-content-around"
@@ -115,8 +114,19 @@
         </div>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     const queryAll = document.querySelectorAll.bind(document);
     const query = document.querySelector.bind(document);

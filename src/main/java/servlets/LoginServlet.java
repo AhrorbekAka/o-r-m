@@ -1,7 +1,6 @@
 package servlets;
 
-import java.io.IOException;
-
+import entities.UserRole;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
@@ -12,59 +11,41 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import services.AuthService;
 
+import java.io.IOException;
+import java.io.Serial;
+
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
+	@Serial
 	private static final long serialVersionUID = 1L;
 
 	public LoginServlet() {
 		super();
 	}
 
-//	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//		// TODO Auto-generated method stub
-//		response.getWriter().append("Served at: ").append(request.getContextPath());
-//	}
-
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String phoneNumber = request.getParameter("phoneNumber");
 		String password = request.getParameter("password");
 
-		System.out.println("mana hammasi "+phoneNumber);
-
 		HttpSession session=request.getSession();
 		response.setContentType("text/html");
 
-		ServletContext sc = this.getServletContext();
-		RequestDispatcher rd;
-
-
 		String userRole = new AuthService().login(phoneNumber, password);
+		String path;
+		session.setAttribute("upnumber", phoneNumber);
+
 		switch (userRole) {
-			case "MANAGER":
-
-				rd = sc.getRequestDispatcher("/manager.jsp");
-
-
-				session.setAttribute("upnumber", phoneNumber);
-
-				break;
-			case "STAFF":
-				rd = sc.getRequestDispatcher("/staff.jsp");
-
-
-				session.setAttribute("upnumber",phoneNumber);
-
-				break;
-			case "CUSTOMER":
-				rd = sc.getRequestDispatcher("/customer.jsp");
-
-				session.setAttribute("upnumber",phoneNumber);
-				break;
-			default:
-				rd = sc.getRequestDispatcher("/login.jsp");
+			case "MANAGER" -> path = "manager.jsp";
+			case "STAFF" -> path = "staff.jsp";
+			case "CUSTOMER" -> path = "customer.jsp";
+			default -> {
+				path = "login.jsp";
+				session.removeAttribute("upnumber");
+				session.invalidate();
+			}
 		}
-		rd.forward(request, response);
-	}
 
+		response.sendRedirect(path);
+	}
 }

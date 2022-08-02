@@ -13,7 +13,7 @@
 <body>
       <h1> ooooops!!!!  Sorry In order to Our restaurant rules before ordering meal you must order a table</h1>
       <h2>  To order Table please click the "TABLE ORDER BUTTON" </h2>
-      <form action="Cus_tablemenu.jsp">
+      <form action="cus_table_menu.jsp">
           <input type="submit" value="TABLE ORDER BUTTON">
 
       </form>

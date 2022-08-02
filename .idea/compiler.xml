@@ -9,8 +9,5 @@
         <module name="online restaurant management" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="online restaurant management" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>

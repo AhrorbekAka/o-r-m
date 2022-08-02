@@ -1,18 +1,20 @@
 package servlets;
 
-import jakarta.servlet.*;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
-import services.DBCon;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import services.DBConnection;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.io.Serial;
 
 @WebServlet("/managertable")
-public class Managertableservice extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+public class ManagerTableService extends HttpServlet {
+	@Serial
+    private static final long serialVersionUID = 1L;
 
     @Override// we use it for updating
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -50,13 +52,11 @@ public class Managertableservice extends HttpServlet {
 
         s = s + " where id=" + id;
         System.out.println("+++++++++++++++ s ni qiymati  ===> " + s);
+        DBConnection connection = new DBConnection();
         if (t) {
-            update(s);
+            connection.update(s);
         }
-        response.sendRedirect("Man_tablemenu.jsp");
-//        RequestDispatcher rd = request.getRequestDispatcher("Man_tablemenu.jsp");
-//        rd.forward(request, response);
-
+        response.sendRedirect("man_table_menu.jsp");
     }
 
 
@@ -68,40 +68,12 @@ public class Managertableservice extends HttpServlet {
         String type = request.getParameter("type");
         String special_price = request.getParameter("special_price");
         String available = request.getParameter("available");
-        String s = String.format("insert  into _table_ (number,facilities,type,special_price,available) values ('%s','%s','%s','%s','%s')"
-                , number, facilities, type, special_price, available);
 
-        System.out.println(s);
-        post(s);
-        RequestDispatcher rd = request.getRequestDispatcher("Man_tablemenu.jsp");
+        DBConnection connection = new DBConnection();
+        connection.insert("_table_",
+                "number,facilities,type,special_price,available",
+                String.format("'%s','%s','%s','%s','%s'", number, facilities, type, special_price, available));
+        RequestDispatcher rd = request.getRequestDispatcher("man_table_menu.jsp");
         rd.forward(request, response);
-    }
-
-
-    public void update(String query) {
-        try {
-            DBCon db = new DBCon();
-            Connection con = db.connect_data_base();
-            Statement statement = con.createStatement();
-
-            statement.executeUpdate(query);
-            System.out.println("topshiriq bajarildi");
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        }
-    }
-
-
-    public void post(String query) {
-        try {
-            DBCon db = new DBCon();
-            Connection con = db.connect_data_base();
-            Statement statement = con.createStatement();
-
-            statement.executeQuery(query);
-            System.out.println(" Qo'shish bajarildi ");
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        }
     }
 }

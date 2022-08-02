@@ -73,7 +73,7 @@
     <h2 class="text-center">Table Menu</h2>
 
     <sql:setDataSource var="orm" driver="org.postgresql.Driver"
-                       url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="postgres"/>
+                       url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="0123"/>
 
     <sql:query var="rs" dataSource="${orm}">SELECT id,number,facilities,type,special_price FROM _table_ where available = true </sql:query>
     <div class="container">

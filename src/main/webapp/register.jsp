@@ -26,7 +26,7 @@
 							</div>
 							<div class="col-xl-6">
 								<div class="card-body p-md-3 text-black">
-									<h3 class="mb-3 text-uppercase">Restaurant form</h3>
+									<h3 class="mb-3 text-uppercase">Registration form</h3>
 
 									<div class="row">
 										<div class="col-md-6 mb-3">

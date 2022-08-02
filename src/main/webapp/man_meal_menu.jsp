@@ -59,7 +59,7 @@
   <h2 class="text-center" >first meals</h2>>
 
   <sql:setDataSource var="orm" driver="org.postgresql.Driver"
-                     url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="postgres"/>
+                     url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="0123"/>
 
   <sql:query var="rs" dataSource="${orm}">SELECT * FROM meal where type='FIRST'   </sql:query>
 

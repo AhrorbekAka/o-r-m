@@ -72,7 +72,7 @@
 		<div class="position-fixed fixed-top pt-3 container d-flex">
 			<h3 class="mr-auto text-info font-weight-light"><strong class="font-weight-bold">Your</strong> Restaurant</h3>
 			<div class="ml-auto">
-				<a href="login.jsp" class="btn btn-outline-info">Order Now -></a>
+				<a href="login.jsp" class="btn btn-info">Order Now -></a>
 			</div>
 		</div>
 	</div>

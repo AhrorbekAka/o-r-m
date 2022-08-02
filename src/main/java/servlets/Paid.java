@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import services.DBCon;
+import services.DBConnection;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -16,61 +16,56 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 @WebServlet("/paid")
-public class Paid extends HttpServlet
-{
-@Override
-protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    String tableorder = request.getParameter("table");
-    String mealorder = request.getParameter("meal");
+public class Paid extends HttpServlet {
 
-    if (tableorder != null) {
-        request.setAttribute("table_id", tableorder);
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String tableOrder = request.getParameter("table");
+        String mealOrder = request.getParameter("meal");
 
-        RequestDispatcher rd = request.getRequestDispatcher("tablepaid.jsp");
-        rd.forward(request, response);
-    } else {
+        if (tableOrder != null) {
+            request.setAttribute("table_id", tableOrder);
 
-        HttpSession session = request.getSession(false);
-        String number = (String) session.getAttribute("upnumber");
-        String query = "select id from _order_ where (up_number='"+number+"')and (paid=false)";
-        System.out.println("foydalanuvchi" + number);
-        String s=null;
-        try {
-             s=get(query);
-        } catch (Exception e) {
-            e.printStackTrace();
+            RequestDispatcher rd = request.getRequestDispatcher("tablepaid.jsp");
+            rd.forward(request, response);
+        } else {
+
+            HttpSession session = request.getSession(false);
+            String number = (String) session.getAttribute("upnumber");
+            String query = "select id from _order_ where (up_number='" + number + "')and (paid=false)";
+            System.out.println("foydalanuvchi" + number);
+            String s = null;
+            try {
+                s = get(query);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            if (s != null) {
+                request.setAttribute("meal_id", mealOrder);
+
+                RequestDispatcher rd = request.getRequestDispatcher("mealpaid.jsp");
+                rd.forward(request, response);
+            } else {
+                RequestDispatcher rd = request.getRequestDispatcher("rule.jsp");
+                rd.forward(request, response);
+            }
         }
-  if (s!=null){request.setAttribute("meal_id", mealorder);
-
-      RequestDispatcher rd = request.getRequestDispatcher("mealpaid.jsp");
-      rd.forward(request, response);} else {
-      RequestDispatcher rd = request.getRequestDispatcher("rule.jsp");
-      rd.forward(request, response);
-  }
     }
-          }
 
 
-
-
-    public String get (String query) throws Exception,SQLException {
-        ResultSet rs=null;
+    public String get(String query) throws Exception, SQLException {
+        ResultSet rs = null;
         try {
-            DBCon db = new DBCon();
+            DBConnection db = new DBConnection();
             Connection con = db.connect_data_base();
             Statement statement = con.createStatement();
-            rs=statement.executeQuery(query);
+            rs = statement.executeQuery(query);
             rs.next();
-            System.out.println("topilgan id==> "+rs.getString("id"));
-        }
-        catch (Exception e)
-        {
+            System.out.println("topilgan id==> " + rs.getString("id"));
+        } catch (Exception e) {
             System.out.println("berilgan kishini topa olmadim");
         }
 
         return rs.getString("id");
     }
-
-
-
 }

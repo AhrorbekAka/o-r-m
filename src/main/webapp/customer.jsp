@@ -22,15 +22,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="style.css" />
-	<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-	/>
+	<link rel="stylesheet"
+		  href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+		  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+		  crossorigin="anonymous">
+</head>
 	<title>Document</title>
 </head>
 <body>
 <sql:setDataSource var="orm" driver="org.postgresql.Driver"
-				   url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="postgres"/>
+				   url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="0123"/>
 
 <sql:query var="rs" dataSource="${orm}">SELECT text,role,first_name,last_name FROM message join _user_ on message.up_number=_user_.phone_number order by message.id asc</sql:query>
 
@@ -108,8 +109,8 @@
 		<div
 				class="div tables d-flex align-items-center justify-content-around"
 		>
-			<a href="Cus_tablemenu.jsp" class="btn btn-info" >Table menu</a>
-			<a href="Cus_mealmenu.jsp" class="btn btn-info" >Meal menu</a>
+			<a href="cus_table_menu.jsp" class="btn btn-info" >Table menu</a>
+			<a href="cus_meal_menu.jsp" class="btn btn-info" >Meal menu</a>
 		</div>
 		<div
 				class="div buttuns d-flex align-items-center justify-content-around"

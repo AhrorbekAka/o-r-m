@@ -62,7 +62,7 @@
         <h4 class="my-4 text-center">Staff's web page</h4>
 
         <sql:setDataSource var="orm" driver="org.postgresql.Driver"
-                           url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="postgres"/>
+                           url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="0123"/>
         <sql:query var="rs" dataSource="${orm}">SELECT _order_.id,table_id,first_name,last_name FROM _order_ join _user_ ON _order_.up_number=_user_.phone_number where paid=false </sql:query>
         <c:forEach items="${rs.rows}" var="order">
             <div class="div p-5 bg-white d-grid" style="font-size: 20px" >

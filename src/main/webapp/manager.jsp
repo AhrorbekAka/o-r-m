@@ -1,33 +1,36 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"  %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
 
-      <%
-         //response.setHeader("Cache-Control"," no-store, must-revalidate");
+<%
+    //response.setHeader("Cache-Control"," no-store, must-revalidate");
 //
-    if (session.getAttribute("upnumber")==null)
+    if (session.getAttribute("upnumber") == null)
         response.sendRedirect("index.jsp");
-      %>
+%>
 
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Manager</title>
 </head>
 <body>
 <sql:setDataSource var="orm" driver="org.postgresql.Driver"
                    url="jdbc:postgresql://localhost:5432/orm" user="postgres" password="0123"/>
 
-<sql:query var="rs" dataSource="${orm}">SELECT text,role,first_name,last_name FROM message join _user_ on message.up_number=_user_.phone_number order by message.id asc</sql:query>
+<sql:query var="rs"
+           dataSource="${orm}">SELECT text,role,first_name,last_name FROM message join _user_ on message.up_number=_user_.phone_number order by message.id asc</sql:query>
 
 <div class="root">
     <div class="card mt-5">
@@ -65,7 +68,7 @@
                   rows="1"
                   placeholder="Type your message"
           ></textarea>
-            <button id="send" class="btn btn-success mb-1" type="submit">Send</button>
+                <button id="send" class="btn btn-success mb-1" type="submit">Send</button>
             </div>
         </form>
     </div>
@@ -85,8 +88,8 @@
             </button>
             <div class="collapse navbar-collapse  d-flex justify-content-between" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">    </a>
-                    <a class="nav-link" href="#">     </a>
+                    <a class="nav-link active" aria-current="page" href="#"> </a>
+                    <a class="nav-link" href="#"> </a>
                 </div>
                 <form action="Logout" method="post">
                     <input type="submit" class="btn btn-success" value="Logout ">
@@ -102,8 +105,8 @@
         <div
                 class="div tables d-flex align-items-center justify-content-around"
         >
-            <a href="man_table_menu.jsp" class="btn btn-info" >Table menu</a>
-            <a href="man_meal_menu.jsp" class="btn btn-info" >Meal menu</a>
+            <a href="man_table_menu.jsp" class="btn btn-info">Table menu</a>
+            <a href="man_meal_menu.jsp" class="btn btn-info">Meal menu</a>
         </div>
         <div
                 class="div buttuns d-flex align-items-center justify-content-around"
@@ -132,15 +135,15 @@
     const query = document.querySelector.bind(document);
     let btn = ''
 
-    setTimeout(()=>{
+    setTimeout(() => {
         btn = sessionStorage.getItem("btn")
-        if(btn){
+        if (btn) {
             query(".card").classList.toggle("show");
             query(".chat_content").scrollTop = query(".chat_content").scrollHeight;
         }
     }, 100)
 
-    query("#send").addEventListener("click", function (){
+    query("#send").addEventListener("click", function () {
         sessionStorage.setItem("btn", "true")
         query(".chat_content").scrollTop = query(".chat_content").scrollHeight;
     })

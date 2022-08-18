@@ -10,77 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a11792e7-7d97-4841-a4ea-2556b132978a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/online restaurant management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/DBCon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/DeployListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/DeployListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/CustomerMealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/CustomerMealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/CustomerTableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/CustomerTableService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/ManagerMealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/ManagerMealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Managertableservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/ManagerTableService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Paid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Paid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Submit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Submit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/messageservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Answer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/answer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Cus_mealmenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cus_meal_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Cus_tablemenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cus_table_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Man_mealmenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/man_meal_menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Man_tablemenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/man_table_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/dbCon.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/man_table_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/man_table_menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/rule.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/rule.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/staff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/staff.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/AuthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/DBCon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/DBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/DeployListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/DeployListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/CustomerMealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/CustomerMealService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/CustomerTableService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/CustomerTableService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/Logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/Logout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/ManagerMealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/ManagerMealService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/Managertableservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/Managertableservice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/Paid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/Paid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/Submit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/Submit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/messageservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/messageservice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/Cus_mealmenu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/Cus_tablemenu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/Man_mealmenu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/Man_tablemenu.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/services/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/services/AuthService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/services/DBCon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/services/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/services/DBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/services/DeployListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/services/DeployListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/CustomerMealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/CustomerMealService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/CustomerTableService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/CustomerTableService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Logout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/ManagerMealService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/ManagerMealService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Managertableservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Managertableservice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Paid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Paid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Submit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/Submit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/messageservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/servlets/messageservice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/dbCon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/Answer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/Answer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/WEB-INF/classes/services/dbCon.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/rule.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/rule.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/staff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/staff.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_restaurant_management-0.0.1-SNAPSHOT/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +170,10 @@
       <updated>1658377834326</updated>
       <workItem from="1659287522039" duration="8809000" />
       <workItem from="1659328252626" duration="1031000" />
-      <workItem from="1659418603190" duration="2084000" />
+      <workItem from="1659418603190" duration="2553000" />
+      <workItem from="1659460662015" duration="1486000" />
+      <workItem from="1659888163978" duration="601000" />
+      <workItem from="1660581828463" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="asdfsfd">
       <created>1659270917694</created>
@@ -238,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659270917694</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ready">
+      <created>1659422224969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659422224969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +208,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asdfsfd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asdfsfd" />
+    <MESSAGE value="ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready" />
   </component>
 </project>
